@@ -1,0 +1,37 @@
+$firstColor: green;
+$lightColor: red;
+$myFont: Helvetica, sans-serif;
+$mySize: 3em;
+// exo 
+@mixin important-text {
+    color: $firstColor;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: $myFont;
+  }
+  .titre{
+      @include important-text;
+      background-color: peachpuff;
+  }
+  @mixin text{
+    background-image: url("/home/bentaleb/Desktop/exercice/DC_exercices_sass2/Exercices_1-5/Axolotl7.jpg");
+    height: 250px;
+    color: $lightColor;
+    font-size: $mySize;
+  }
+  h1{ @include text;
+  }
+  div{
+    li{
+        text-decoration: underline;
+        line-height: 30px;
+    }
+    a:hover{
+        background-color: $lightColor;
+    }
+    a:visited{
+        background-color: chartreuse;
+    }
+}
+ 
+

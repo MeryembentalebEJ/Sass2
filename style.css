@@ -1,0 +1,28 @@
+.titre {
+  color: green;
+  font-size: 25px;
+  font-weight: bold;
+  font-family: Helvetica, sans-serif;
+  background-color: peachpuff;
+}
+
+h1 {
+  background-image: url("/home/bentaleb/Desktop/exercice/DC_exercices_sass2/Exercices_1-5/Axolotl7.jpg");
+  height: 250px;
+  color: red;
+  font-size: 3em;
+}
+
+div li {
+  text-decoration: underline;
+  line-height: 30px;
+}
+
+div a:hover {
+  background-color: red;
+}
+
+div a:visited {
+  background-color: chartreuse;
+}
+/*# sourceMappingURL=style.css.map */
